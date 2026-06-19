@@ -1,0 +1,41 @@
+.container-pedidos-vazio {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.card-pedido-vazio {
+    background: linear-gradient(135deg, #d3e4ff 0%, #fae3f0 100%);
+    border-radius: 25px; 
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card-pedido-vazio img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.card-pedido-vazio h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #000000;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.card-pedido-vazio p {
+    margin: 0;
+    font-size: 1rem;
+    color: #4a4a4a;
+    line-height: 1.4;
+}

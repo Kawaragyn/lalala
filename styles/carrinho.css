@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Quicksand:wght@500;700&display=swap');
+
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background-color: #fffaf7; 
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 4rem;
+    background-color: #f19eb5; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+header form {
+    margin: 0;
+}
+
+.btn-voltar {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.btn-voltar:hover {
+    transform: scale(1.1);
+}
+
+main {
+    max-width: 500px; 
+    margin: 20px auto;
+    padding: 0 15px;
+    margin-bottom: 100px; 
+}
+
+main h2 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.item-carrinho {
+ 
+    background: linear-gradient(135deg, #d3e4ff 0%, #fae3f0 100%);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.detalhes-item h3 {
+    margin: 0 0 15px 0;
+    font-size: 1.3rem;
+    color: #000000;
+    max-width: 70%; 
+    line-height: 1.3;
+}
+
+.detalhes-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.detalhes-item p strong {
+    color: #000000;
+    font-size: 1.1rem;
+}
+
+.detalhes-item .subtotal {
+    color: #2b6cb0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.img-carrinho {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.btn-remover {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #ffcbd1;
+    color: #c53030;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-remover:hover {
+    background-color: #f56565;
+    color: white;
+}
+
+.carrinho-vazio-txt {
+    text-align: center;
+    color: #718096;
+    font-size: 1.2rem;
+    margin-top: 60px;
+}
+
+hr {
+    display: none;
+}
+
+.total-carrinho {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f4a2b8;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 1px solid #e291a6;
+    z-index: 1000;
+}
+
+.total-carrinho p {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #000000;
+}
+
+#total-final {
+    font-weight: bold;
+    margin-left: 5px;
+}

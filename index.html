@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais Vendidos</title>
+    <link rel="stylesheet" href="styles/telaInicialCliente.css">
+    <link rel="stylesheet" href="styles/menuEmTodos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="script/gerenciarProdutos.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="imagens/logoDaDoceria.png" alt="Logo da doceria" class="logo">
+        <div>
+            <button class="btn-pesquisa">Buscar</button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <a href="páginas/carrinho.html">
+            <img src="imagens/simboloCarrinho.png" alt="Carrinho de compras" class="btn-carrinho">
+        </a>
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">+ Vendidos</a></li>
+                <li><a href="páginas/categorias.html">Todos</a></li>
+                <li><a href="páginas/pedidos.html">Pedidos</a></li>
+            </ul>
+        </nav>
+
+        <div id="container-produtos"></div>
+    </main>
+
+    <footer>
+        <p>Total: <span id="valor-total">R$ 0,00</span></p>
+        <a href="páginas/carrinho.html"><button class="carrinho">Ir ao carrinho</button></a>
+    </footer>
+</body>
+</html>

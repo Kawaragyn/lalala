@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../styles/menuEmTodos.css">
+    <link rel="stylesheet" href="../styles/telaInicialCliente.css">
+    <script src="../script/docesDasCategorias.js"></script>
+    <script src="../script/categoria.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="../imagens/logoDaDoceria.png" alt="Logo da doceria" class="logo">
+        <div>
+            <button class="btn-pesquisa">Buscar</button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li><a href="../index.html">+ Vendidos</a></li>
+                <li><a href="categorias.html" class="active">Todos</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+            </ul>
+        </nav>
+        <a href="carrinho.html">
+            <img src="../imagens/simboloCarrinho.png" alt="Carrinho de compras" class="btn-carrinho">
+        </a>
+
+        <div id="container-produtos"></div>
+    </main>
+
+    <footer>
+        <p>Total: <span id="valor-total">R$ 0,00</span></p>
+        <a href="carrinho.html"><button class="carrinho">Ir ao carrinho</button></a>
+    </footer>
+</body>
+</html>
